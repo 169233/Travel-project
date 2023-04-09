@@ -166,7 +166,7 @@ footer a {
 
 .grid {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 30px;
 }
 
 .grid-2-cl {
@@ -205,6 +205,14 @@ footer a {
 
 .center-text {
   text-align: center;
+}
+
+.first-line {
+  margin-bottom: 30px;
+}
+
+.photo {
+  margin-bottom: 30px;
 }
 
 .btn {
