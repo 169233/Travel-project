@@ -150,13 +150,18 @@ footer a {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .grid {
@@ -186,6 +191,10 @@ footer a {
   padding: 30px;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .card-footer {
   padding: 0 30px 30px;
 }
@@ -202,14 +211,14 @@ footer a {
   display: block;
   color: white;
   background-color: #462cb3;
-  padding: 16px 32px;
+  padding: 16px;
   text-decoration: none;
   text-align: center;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 21px;
 }
 
 @media (max-width: 960px) {
@@ -236,5 +245,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
