@@ -11,7 +11,7 @@ header {
   color: white;
   text-align: center;
   font-style: normal;
-  padding: 200px;
+  padding: 200px 0;
 }
 
 header h1 {
@@ -26,7 +26,6 @@ header h2 {
   font-size: 40px;
   line-height: 1.5;
   margin: 0;
-  margin-bottom: 48px;
 }
 
 header h3 {
@@ -35,13 +34,10 @@ header h3 {
   line-height: 1.5;
   letter-spacing: 5px;
   text-transform: uppercase;
-  letter-spacing: 5px;
   margin: 0;
 }
 
 header a {
-  width: 115px;
-  height: 21px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
@@ -52,6 +48,8 @@ header a {
   text-decoration: none;
   color: #272044;
   padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
 }
 
 .container {
